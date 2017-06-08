@@ -1,0 +1,70 @@
+* {
+  /*box-sizing: border-box; This helps with the dimensional issue of borders.*/
+  margin: 0;
+  padding: 0;
+  /*border: 0.5px solid black; Comment this out at the end.*/
+}
+.container {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  color: #24248a;
+}
+#header {
+  margin-top: 30px;
+}
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 45px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+.sButton {
+  text-align: center;
+  background-color: #efefef;
+  border: 1px solid #757575;
+  color: #757575;
+  margin: 11px 4px;
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+  width: 150px;
+}
+.sButton:hover {
+  border: 1px solid #d9d9d9;
+  color: #403e3e;
+  box-shadow: 1px 1px 2px #888888;
+}
+.active {
+  border: 1px solid #d9d9d9;
+  color: #403e3e;
+  box-shadow: 1px 1px 2px #888888;
+  margin: 11px 4px;
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+  width: 150px;
+}
+#grid {
+  height: 600px;
+  width: 600px;
+  top: 20px;
+  position: relative;
+  margin: auto;
+  border: solid 1px #595959;
+  background-color: white;
+}
+.row {
+	border-bottom: 0.1px solid white;
+  width: 100%;
+  clear: both;
+}
+.column {
+	border-left: 0.1px solid white;
+  background-color: #ccccff;
+  height: 100%;
+  display: inline-block;
+  float: left;
+}
